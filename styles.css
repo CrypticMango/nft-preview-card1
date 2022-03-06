@@ -14,6 +14,9 @@
       justify-content: center;
       margin: 0;
       min-height: 100vh;
+      font-weight: 300;
+      font-family: 'Outfit', sans-serif;
+      
   }
 
   hr {
@@ -24,10 +27,12 @@
 
   .card-container {
     background-color: var(--card-bg-color);
+    padding: 25px;
+    width: 280px;
 }
   
 .glass-cube {
-    height: 400px;
+    height: 280px;
 }
 
   .nft-name-number, .mans-name {
@@ -41,13 +46,23 @@
   .eth-and-time {
       display: flex;
       flex-direction: row;
+      align-items: center;
   }
 
   .nft-price {
       color:#00FFF8;
   }
 
+  .image-and-creator-name {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+  }
 
+.mans-picture {
+    height: 30px;
+}
 
 
 .attribution {
