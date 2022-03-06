@@ -29,10 +29,12 @@
     background-color: var(--card-bg-color);
     padding: 25px;
     width: 280px;
+    border-radius: 15px;
 }
   
 .glass-cube {
     height: 280px;
+    border-radius: 8px;
 }
 
   .nft-name-number, .mans-name {
