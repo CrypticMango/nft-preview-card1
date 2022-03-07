@@ -23,6 +23,7 @@
       height: 1px;
       background-color: var(--line-color);
       border: none;
+      margin: 0;
   }
 
   .card-container {
@@ -32,7 +33,7 @@
     border-radius: 15px;
 }
   
-.glass-cube {
+  .glass-cube {
     height: 280px;
     border-radius: 8px;
 }
@@ -45,12 +46,22 @@
     color: var(--main-text);
   }
 
+  .nft-description p {
+      margin-bottom: 0%;
+  }
+
   .eth-and-time {
       display: flex;
       flex-direction: row;
       align-items: center;
+      justify-content: space-between;
   }
-
+ 
+  .bottom-info1, .bottom-info2 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
   .nft-price {
       color:#00FFF8;
   }
@@ -62,12 +73,12 @@
     align-items: center;
   }
 
-.mans-picture {
+  .mans-picture {
     height: 30px;
 }
 
 
-.attribution {
+  .attribution {
     font-size: 11px; 
     text-align: center; 
     color: hsl(228, 45%, 44%)
