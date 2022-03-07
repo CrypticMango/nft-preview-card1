@@ -26,6 +26,30 @@
       margin: 0;
   }
 
+  a {
+      color: white;
+  }
+
+   h2:hover {
+      color: #00FFF8;
+  }
+
+  .mans-name:hover {
+      color: #00FFF8;
+  }
+
+  .glass-cube:hover + .hidden-eye {
+    display: block;
+    color: #00FFF8;
+  }
+
+  .hidden-eye {
+    display: none;
+    position:absolute;
+    top: 300px;
+    left: 466px;
+  } 
+
   .card-container {
     background-color: var(--card-bg-color);
     padding: 25px;
@@ -38,6 +62,10 @@
     border-radius: 8px;
 }
 
+  .nft-name-number {
+    font-size: 15px;
+}
+
   .nft-name-number, .mans-name {
       color: var(--white);
   }
@@ -48,6 +76,7 @@
 
   .nft-description p {
       margin-bottom: 0%;
+      line-height: 25px;
   }
 
   .eth-and-time {
@@ -64,6 +93,11 @@
   }
   .nft-price {
       color:#00FFF8;
+      font-weight: 600;
+  }
+
+  .nft-time-limit {
+      font-weight: 400;
   }
 
   .image-and-creator-name {
@@ -71,15 +105,20 @@
     flex-direction: row;
     margin: 0;
     align-items: center;
+    position: relative;
+    top: 8px;
+
   }
 
   .mans-picture {
     height: 30px;
+    border-radius: 20px;
+    border: 1.5px solid white;
+   
 }
-
 
   .attribution {
     font-size: 11px; 
     text-align: center; 
-    color: hsl(228, 45%, 44%)
+    color: var(--main-text)
 }
