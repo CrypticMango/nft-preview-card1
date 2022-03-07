@@ -1,124 +1,131 @@
 :root {
-    --main-bg-color: hsl(217, 54%, 11%);
-    --card-bg-color: hsl(216, 50%, 16%);
-    --line-color: hsl(215, 32%, 27%);
-    --white: hsl(0, 0%, 100%);
-    --main-text: hsl(215, 51%, 70%)
-  }
-
-  body {
-      background-color: var(--main-bg-color);
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin: 0;
-      min-height: 100vh;
-      font-weight: 300;
-      font-family: 'Outfit', sans-serif;
-      
-  }
-
-  hr {
-      height: 1px;
-      background-color: var(--line-color);
-      border: none;
-      margin: 0;
-  }
-
-  a {
-      color: white;
-  }
-
-   h2:hover {
-      color: #00FFF8;
-  }
-
-  .mans-name:hover {
-      color: #00FFF8;
-  }
-
-  .glass-cube:hover + .hidden-eye {
-    display: block;
-    color: #00FFF8;
-  }
-
-  .hidden-eye {
-    display: none;
-    position:absolute;
-    top: 300px;
-    left: 466px;
-  } 
-
-  .card-container {
-    background-color: var(--card-bg-color);
-    padding: 25px;
-    width: 280px;
-    border-radius: 15px;
-}
-  
-  .glass-cube {
-    height: 280px;
-    border-radius: 8px;
+	--main-bg-color: hsl(217, 54%, 11%);
+	--card-bg-color: hsl(216, 50%, 16%);
+	--line-color: hsl(215, 32%, 27%);
+	--white: hsl(0, 0%, 100%);
+	--main-text: hsl(215, 51%, 70%);
 }
 
-  .nft-name-number {
-    font-size: 15px;
+body {
+	background-color: var(--main-bg-color);
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0;
+	min-height: 100vh;
+	font-weight: 300;
+	font-family: "Outfit", sans-serif;
 }
 
-  .nft-name-number, .mans-name {
-      color: var(--white);
-  }
+hr {
+	height: 1px;
+	background-color: var(--line-color);
+	border: none;
+	margin: 0;
+}
 
-  .nft-description, .nft-time-limit, .image-and-creator-name {
-    color: var(--main-text);
-  }
+a {
+	color: white;
+}
 
-  .nft-description p {
-      margin-bottom: 0%;
-      line-height: 25px;
-  }
-
-  .eth-and-time {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-  }
- 
-  .bottom-info1, .bottom-info2 {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-  }
-  .nft-price {
-      color:#00FFF8;
-      font-weight: 600;
-  }
-
-  .nft-time-limit {
-      font-weight: 400;
-  }
-
-  .image-and-creator-name {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    align-items: center;
+.teal-overlay {
+    background:#00fff8;
+    height: 200px;
+    width: 200px;
     position: relative;
-    top: 8px;
-
-  }
-
-  .mans-picture {
-    height: 30px;
-    border-radius: 20px;
-    border: 1.5px solid white;
-   
 }
 
-  .attribution {
-    font-size: 11px; 
-    text-align: center; 
-    color: var(--main-text)
+h2:hover {
+	color: #00fff8;
+}
+
+.mans-name:hover {
+	color: #00fff8;
+}
+
+.glass-cube:hover + .hidden-eye {
+	display: block;
+}
+
+.hidden-eye {
+	display: none;
+	position: absolute;
+	top: 300px;
+	left: 466px;
+}
+
+.card-container {
+	background-color: var(--card-bg-color);
+	padding: 25px;
+	width: 280px;
+	border-radius: 15px;
+}
+
+.glass-cube {
+	height: 280px;
+	border-radius: 8px;
+}
+
+.nft-name-number {
+	font-size: 15px;
+}
+
+.nft-name-number,
+.mans-name {
+	color: var(--white);
+}
+
+.nft-description,
+.nft-time-limit,
+.image-and-creator-name {
+	color: var(--main-text);
+}
+
+.nft-description p {
+	margin-bottom: 0%;
+	line-height: 25px;
+}
+
+.eth-and-time {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bottom-info1,
+.bottom-info2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.nft-price {
+	color: #00fff8;
+	font-weight: 600;
+}
+
+.nft-time-limit {
+	font-weight: 400;
+}
+
+.image-and-creator-name {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	align-items: center;
+	position: relative;
+	top: 8px;
+}
+
+.mans-picture {
+	height: 30px;
+	border-radius: 20px;
+	border: 1.5px solid white;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: var(--main-text);
 }
