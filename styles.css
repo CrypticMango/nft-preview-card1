@@ -29,13 +29,6 @@ a {
 	color: white;
 }
 
-.teal-overlay {
-    background:#00fff8;
-    height: 200px;
-    width: 200px;
-    position: relative;
-}
-
 h2:hover {
 	color: #00fff8;
 }
@@ -45,7 +38,8 @@ h2:hover {
 }
 
 .glass-cube:hover + .hidden-eye {
-	display: block;
+	display: inline-block;
+	
 }
 
 .hidden-eye {
@@ -57,7 +51,20 @@ h2:hover {
 	right: 0;
 	bottom: 61%;
 	text-align: center;
+	
 }
+
+/*.backgound-color {
+	display: none;
+	background-color: rgba(209, 75, 187, 0.7);
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	position: absolute;
+	padding: 70px;
+} */
 
 .card-container {
 	background-color: var(--card-bg-color);
@@ -69,10 +76,16 @@ h2:hover {
 .glass-cube {
 	height: 280px;
 	border-radius: 8px;
+	cursor: pointer;
+}
+
+.mans-name {
+	cursor: pointer;
 }
 
 .nft-name-number {
 	font-size: 15px;
+	cursor: pointer;
 }
 
 .nft-name-number,
