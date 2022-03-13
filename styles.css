@@ -37,29 +37,30 @@ h2:hover {
 	color: #00fff8;
 }
 
-.glass-cube:hover + .hidden-eye {
-	display: block;
-}
-
-.glass-cube:hover + .background-color {
-	display: block;
-}
-
 .hidden-eye {
+	position: absolute;
+	bottom: 43%;
+	left: 42.5%;
+}
+
+.overlay-container {
 	display: none;
 	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
 	right: 0;
-	bottom: 61%;
+	bottom: 47.2%;
 	text-align: center;
+	background-color:#00fff8;
+	height: 280px;
+	width: 280px;
+	border-radius: 8px;
 }
 
-.background-color {
-	display: none;
-	color: rgba(209, 75, 187);
-} 
+.glass-cube:hover + .overlay-container {
+	display: block;
+}
 
 .card-container {
 	background-color: var(--card-bg-color);
