@@ -46,11 +46,10 @@ h2:hover {
 	right: 0;
 	bottom: 47.2%;
 	text-align: center;
-	background-color:#00fff8;
+	background-color:#00fff77a;
 	height: 280px;
 	width: 280px;
 	border-radius: 8px;
-	opacity: .5;
 }
 
 .hidden-eye {
