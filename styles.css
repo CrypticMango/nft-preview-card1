@@ -29,7 +29,11 @@ a {
 	color: white;
 }
 
-h2:hover {
+h1 {
+	font-size: 21px;
+}
+
+h1:hover {
 	color: #00fff8;
 }
 
