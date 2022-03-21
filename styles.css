@@ -78,8 +78,10 @@ h1:hover {
 .card-container {
 	background-color: var(--card-bg-color);
 	padding: 25px;
+	padding-bottom: 30px;
 	width: 280px;
 	border-radius: 15px;
+	margin-bottom: 40px;
 }
 
 .glass-cube {
